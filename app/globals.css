@@ -4,24 +4,15 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
+  --foreground: ##000;
+  --green: #b9ff66;
+  --dark: #191a23;
+  --grey: #f3f3f3;
+  --shadow: #191a23
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --shadow-solid: 0px 5px 0px 0px var(--shadow);
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  @apply text-black bg-white font-sans text-base lg:text-lg lg:!leading-[normal];
 }
