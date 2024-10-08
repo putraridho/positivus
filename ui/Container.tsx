@@ -6,6 +6,6 @@ export function Container({
   ...props
 }: PropsWithChildren<HTMLAttributes<HTMLDivElement>>) {
   return (
-    <div className={twMerge("max-w-7xl px-5 mx-auto", className)} {...props} />
+    <div className={twMerge("w-full max-w-7xl px-5 mx-auto", className)} {...props} />
   );
 }
