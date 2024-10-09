@@ -1,5 +1,6 @@
 import { Typography } from "@/ui";
 import { twMerge } from "tailwind-merge";
+import { Heading } from "../Heading";
 
 interface SectionHeadingProps {
   heading: string;
@@ -19,14 +20,9 @@ export function SectionHeading({
         className
       )}
     >
-      <Typography
-        as="h2"
-        size="h2"
-        weight="medium"
-        className="px-2 bg-brand rounded-[7px]"
-      >
+      <Heading as="h2" size="h2" weight="medium" color="brand">
         {heading}
-      </Typography>
+      </Heading>
       <Typography className="lg:flex-1 lg:max-w-[580px]">
         {subheading}
       </Typography>

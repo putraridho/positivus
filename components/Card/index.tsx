@@ -3,6 +3,7 @@ import { cva } from "class-variance-authority";
 import Image from "next/image";
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
+import { Heading } from "../Heading";
 
 const cardVariants = cva(
   "relative flex flex-col lg:flex-row items-start lg:items-stretch justify-start gap-7 border border-solid border-dark rounded-[45px] p-[50px] shadow-solid",
@@ -42,18 +43,15 @@ export function Card({
       <div className="flex flex-col gap-[93px]">
         <h3 className="flex flex-col items-start justify-start text-black gap-0">
           {heading.map((h) => (
-            <Typography
+            <Heading
               key={h}
               as="span"
               size="h3"
               weight="medium"
-              className={twMerge(
-                "px-2 rounded-[7px]",
-                color === "grey" ? "bg-brand" : "bg-white"
-              )}
+              color={color === "grey" ? "brand" : "white"}
             >
               {h}
-            </Typography>
+            </Heading>
           ))}
         </h3>
         <Link

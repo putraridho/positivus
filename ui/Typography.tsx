@@ -20,7 +20,7 @@ const typographyVariants = cva("", {
   },
 });
 
-interface TypographyProps
+export interface TypographyProps
   extends HTMLAttributes<
     HTMLParagraphElement | HTMLHeadingElement | HTMLSpanElement
   > {
