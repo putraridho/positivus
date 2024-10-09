@@ -5,12 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: ##000;
-  --green: #b9ff66;
+  --brand: #b9ff66;
   --dark: #191a23;
   --grey: #f3f3f3;
-  --shadow: #191a23
 
-  --shadow-solid: 0px 5px 0px 0px var(--shadow);
+  --shadow-solid: 0px 5px 0px 0px #191a23;
 }
 
 body {

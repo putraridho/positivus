@@ -29,7 +29,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        brand: "var(--green)",
+        brand: "var(--brand)",
         dark: "var(--dark)",
         grey: "var(--grey)",
       },

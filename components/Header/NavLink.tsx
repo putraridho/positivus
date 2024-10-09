@@ -31,7 +31,7 @@ function NavLink({ className, ...props }: PropsWithChildren<NavLinkProps>) {
   return (
     <Link
       className={twMerge(
-        "text-xl px-2 hover:bg-brand rounded-md transition-all",
+        "text-xl px-2 hover:bg-brand rounded-[7px] transition-all",
         className
       )}
       {...props}

@@ -14,7 +14,7 @@ export function LandingPartners({ className }: LandingPartnersProps) {
       <div className="hidden lg:block overflow-hidden whitespace-nowrap">
         <div className="inline-block w-max animate-partner-left">
           <PartnerImage
-            src="/Company logo.png"
+            src="/Company logo-0.png"
             alt="company logo"
             width={125}
             height={48}
@@ -52,7 +52,7 @@ export function LandingPartners({ className }: LandingPartnersProps) {
         </div>
         <div className="inline-block w-max animate-partner-left">
           <PartnerImage
-            src="/Company logo.png"
+            src="/Company logo-0.png"
             alt="company logo"
             width={125}
             height={48}
@@ -93,7 +93,7 @@ export function LandingPartners({ className }: LandingPartnersProps) {
         <div className="overflow-hidden whitespace-nowrap">
           <div className="inline-block w-max animate-partner-left">
             <PartnerImage
-              src="/Company logo.png"
+              src="/Company logo-0.png"
               alt="company logo"
               width={125}
               height={48}
@@ -113,7 +113,7 @@ export function LandingPartners({ className }: LandingPartnersProps) {
           </div>
           <div className="inline-block w-max animate-partner-left">
             <PartnerImage
-              src="/Company logo.png"
+              src="/Company logo-0.png"
               alt="company logo"
               width={125}
               height={48}
@@ -133,7 +133,7 @@ export function LandingPartners({ className }: LandingPartnersProps) {
           </div>
           <div className="inline-block w-max animate-partner-left">
             <PartnerImage
-              src="/Company logo.png"
+              src="/Company logo-0.png"
               alt="company logo"
               width={125}
               height={48}
