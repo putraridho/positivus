@@ -36,6 +36,28 @@ const config: Config = {
       boxShadow: {
         solid: "var(--shadow-solid)",
       },
+      keyframes: {
+        partnerLeft: {
+          "0%": {
+            transform: "translateX(0%)",
+          },
+          "100%": {
+            transform: "translateX(-100%)",
+          },
+        },
+        partnerRight: {
+          "0%": {
+            transform: "translateX(-100%)",
+          },
+          "100%": {
+            transform: "translateX(0%)",
+          },
+        },
+      },
+      animation: {
+        "partner-left": "partnerLeft 12s linear infinite",
+        "partner-right": "partnerRight 12s linear infinite",
+      },
     },
   },
   plugins: [],
