@@ -3,9 +3,13 @@ import Link from "next/link";
 import { PropsWithChildren } from "react";
 import { twMerge } from "tailwind-merge";
 
-export function Nav() {
+interface NavProps {
+  className?: string;
+}
+
+export function Nav({ className }: NavProps) {
   return (
-    <nav className="flex items-center gap-6">
+    <nav className={twMerge("flex items-center gap-6", className)}>
       <NavLink href="#about-us">About us</NavLink>
       <NavLink href="#services">Services</NavLink>
       <NavLink href="#use-cases">Use Cases</NavLink>

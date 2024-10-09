@@ -8,13 +8,13 @@ export function Header() {
     <header>
       <Container className="flex items-center justify-between">
         <Image
-          src="logo.svg"
+          src="/logo.svg"
           alt="logo"
           width={220}
           height={56}
           className="w-36 lg:w-auto"
         />
-        <Nav />
+        <Nav className="hidden lg:flex" />
         <BurgerMenuButton className="block lg:hidden" />
       </Container>
     </header>
