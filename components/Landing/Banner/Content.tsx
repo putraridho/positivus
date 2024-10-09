@@ -14,7 +14,7 @@ export function Content({ className }: ContentProps) {
       </Typography>
       <div className="flex lg:hidden items-center justify-center mt-2.5">
         <Image
-          src="/illustration.png"
+          src="/Illustration.png"
           alt="illustration"
           width={362}
           height={310}

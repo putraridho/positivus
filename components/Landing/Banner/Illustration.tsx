@@ -11,7 +11,7 @@ export function Illustration({ className }: IllustrationProps) {
       className={twMerge("items-center justify-center px-8 lg:px-0", className)}
     >
       <Image
-        src="/illustration.png"
+        src="/Illustration.png"
         alt="illustration"
         width={601}
         height={515}
